@@ -11,7 +11,7 @@ class code_TestCase(unittest.TestCase):
 
   def test_say_hello(self):
     val = code.say_hello()
-    self.assertEqual(val, "Hello world")
+    self.assertEqual(val, "Hello world!")
 
 
 
